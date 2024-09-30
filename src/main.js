@@ -6,9 +6,6 @@ import Aura from '@primevue/themes/aura';
 import App from './App.vue';
 
 import Button from 'primevue/button';
-import Menubar from 'primevue/menubar';
-import ToggleSwitch from 'primevue/toggleswitch';
-
 
 const app = createApp(App);
 app.use(PrimeVue, {
@@ -23,7 +20,5 @@ app.use(PrimeVue, {
 });
 
 app.component('Button', Button);
-app.component('Menubar', Menubar);
-app.component('ToggleSwitch', ToggleSwitch);
 
 app.mount('#app');
